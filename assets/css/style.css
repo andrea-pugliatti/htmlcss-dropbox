@@ -262,6 +262,29 @@ a {
 		
 }
 
+/* partner section */
+.partner .image-container {
+	width: 55%;
+}
+
+.partner article {
+	padding: 2rem;
+	width: 45%;
+
+	h2 {
+		display: block;
+		padding-bottom: 1rem;
+	}
+
+	a {
+		display: block;
+		margin-top: 2rem;
+		padding: .6rem 1.2rem;
+		border: 1px solid var(--db-color-black);
+		justify-self: flex-start;
+	}
+}
+
 /* capabilities section */
 .capabilities {
 	padding: 10rem 0;
