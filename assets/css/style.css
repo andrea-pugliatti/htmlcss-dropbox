@@ -117,3 +117,6 @@ a {
 }
 
 /* Jumbotron */
+.jumbotron {
+    background-color: var(--db-bg-secondary);
+}
