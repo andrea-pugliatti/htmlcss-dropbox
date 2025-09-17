@@ -1,20 +1,3 @@
-/* Debug */
-.debug {
-	* {
-		border: 1px dashed;
-	}
-
-	section {
-		background-color: aqua;
-		min-height: 800px;
-	}
-
-	.col-3,
-	.card {
-		min-height: 400px;
-	}
-}
-
 /* Reset */
 * {
 	margin: 0;
@@ -99,14 +82,15 @@ a {
 }
 
 .m-bottom-1 {
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .m-left-1 {
-	margin-top: 1rem;
+	margin-left: 1rem;
 }
+
 .m-right-1 {
-	margin-top: 1rem;
+	margin-right: 1rem;
 }
 
 .p-top-1 {
@@ -336,4 +320,21 @@ a {
 	color: var(--db-color-gray);
 	font-size: 0.7rem;
 	padding: 1rem 0;
+}
+
+/* Debug */
+.debug {
+	* {
+		border: 1px dashed;
+	}
+
+	section {
+		background-color: aqua;
+		min-height: 800px;
+	}
+
+	.col-3,
+	.card {
+		min-height: 400px;
+	}
 }
