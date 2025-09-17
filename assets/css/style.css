@@ -1,0 +1,54 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom properties */
+:root {
+    --db-brand-color: #0061fe;
+    --db-bg-primary: #ffffff;
+    --db-bg-secondary: #b4d0e6;
+    --db-color-black: #000000;
+    --db-color-white: #ffffff;
+}
+
+/* Common */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	min-width: 600px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utils */
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.d-flex-r {
+	display: flex;
+}
+
+.d-flex-c {
+	display: flex;
+    flex-direction: column;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
