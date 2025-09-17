@@ -156,10 +156,6 @@ a {
         font-size: 3.5rem;
     }
 
-    span,
-    p {
-    }
-    
     a {
         align-self: flex-start;
 	    padding: .7rem 1.3rem;
@@ -176,6 +172,22 @@ a {
 }
 
 /* business-plan section */
+.business-plan {
+	padding: 10rem 0;
+
+	h2 {
+		padding-bottom: 1rem;
+	}
+
+	.radio-buttons {
+		padding: 2rem 0;
+	}
+
+	label {
+		padding-right: 2rem;
+	}
+}
+
 .card {
     width: calc(100%/3);
     border: 1px solid black;
@@ -183,6 +195,10 @@ a {
     &:last-child {
         width:100%;
     }
+
+	header {
+		text-align: center;
+	}
 }
 
 /* capabilities section */
