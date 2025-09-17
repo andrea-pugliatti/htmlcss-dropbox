@@ -99,6 +99,21 @@ a {
 	margin-top: 1rem;
 }
 
+.m-bottom-1 {
+	margin-top: 1rem;
+}
+
+.m-left-1 {
+	margin-top: 1rem;
+}
+.m-right-1 {
+	margin-top: 1rem;
+}
+
+.p-top-1 {
+	padding-top: 1rem;
+}
+
 .row {
     margin: 0 -1rem;
 }
@@ -206,14 +221,10 @@ a {
 }
 
 .card {
-	min-width: 180px;
-    width: calc(100%/3);
+	min-width: 120px;
+    width: calc(100% / 3);
     border: 1px solid var(--db-color-gray);
 	font-size: .9rem;
-
-    &:last-child {
-        width:100%;
-    }
 
 	#card-header {
 		padding: .5rem 0;
@@ -235,6 +246,20 @@ a {
 		border-top: 1px solid var(--db-color-gray);
 
 	}
+}
+
+.card:last-child {
+	width: 100%;
+
+	main {
+		padding: 2rem;
+	}
+
+	main .left > span {
+		display: block;
+		padding-top: 1rem;
+	}
+		
 }
 
 /* capabilities section */
