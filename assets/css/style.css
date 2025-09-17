@@ -4,11 +4,16 @@
 		border: 1px dashed;
 	}
 
-	section,
-    .card {
+	section {
 		background-color: aqua;
 		min-height: 800px;
 	}
+
+    .col-3,
+    .card {
+        min-height: 400px;
+    }
+
 }
 
 /* Reset */
@@ -87,6 +92,15 @@ a {
 
 .w-30 {
     width: 30%;
+}
+
+.row {
+    margin: 0 -1rem;
+}
+
+.col-3 {
+    width: calc(100%/3);
+    padding: 1rem;
 }
 
 .btn {
@@ -168,4 +182,10 @@ a {
     &:last-child {
         width:100%;
     }
+}
+
+/* capabilities section */
+.capabilities a {
+    text-decoration: underline;
+	color: blue;
 }
