@@ -1,22 +1,29 @@
 /* Debug */
-.debug * {
-    border: 1px dashed;
+.debug {
+	* {
+		border: 1px dashed;
+	}
+
+	section {
+		background-color: aqua;
+		min-height: 800px;
+	}
 }
 
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* Custom properties */
 :root {
-    --db-brand-color: #0061fe;
-    --db-bg-primary: #ffffff;
-    --db-bg-secondary: #b4d0e6;
-    --db-color-black: #000000;
-    --db-color-white: #ffffff;
+	--db-brand-color: #0061fe;
+	--db-bg-primary: #ffffff;
+	--db-bg-secondary: #b4d0e6;
+	--db-color-black: #000000;
+	--db-color-white: #ffffff;
 }
 
 /* Common */
@@ -27,19 +34,24 @@ body {
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: var(--db-color-black);
 }
 
 /* Utils */
 .container {
 	width: 80%;
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
 .container-sm {
 	width: 70%;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -49,7 +61,7 @@ img {
 
 .d-flex-c {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .justify-content-between {
@@ -57,7 +69,7 @@ img {
 }
 
 .justify-content-center {
-    justify-content: center;
+	justify-content: center;
 }
 
 .align-items-center {
@@ -65,48 +77,43 @@ img {
 }
 
 .btn {
-    background-color: var(--db-brand-color);
-    color: var(--db-color-white);
-    padding: .4rem .8rem;
-
+	background-color: var(--db-brand-color);
+	color: var(--db-color-white);
+	padding: 0.4rem 0.8rem;
 }
 
 /* Header */
 #app-header {
-    width: 100%;
-    background-color: var(--db-bg-primary);
-    padding: 1rem;
-    font-size: .9rem;
+	width: 100%;
+	background-color: var(--db-bg-primary);
+	padding: 1rem;
+	font-size: 0.9rem;
 
 	ul {
 		list-style-type: none;
 		gap: 1rem;
 	}
 
-    .nav-left { 
-        align-items: center;
-    }
+	.nav-left {
+		align-items: center;
+	}
 
 	.nav-right {
 		justify-content: flex-end;
 
-        li.btn > a {
-            background-color: var(--db-brand-color);
-            color: var(--db-color-white);
-        } 
+		li.btn > a {
+			background-color: var(--db-brand-color);
+			color: var(--db-color-white);
+		}
 	}
 
-	a {
-		text-decoration: none;
-		color: var(--db-color-black);
-	}
-    
-    .logo {
+	.logo {
 		width: max(120px, 1%);
 	}
 
 	img {
-        vertical-align: middle;
+		vertical-align: middle;
 	}
-
 }
+
+/* Jumbotron */
