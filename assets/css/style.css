@@ -95,6 +95,10 @@ a {
     width: 30%;
 }
 
+.m-top-1 {
+	margin-top: 1rem;
+}
+
 .row {
     margin: 0 -1rem;
 }
@@ -108,6 +112,19 @@ a {
 	background-color: var(--db-brand-color);
 	color: var(--db-color-white);
 	padding: 0.4rem 0.8rem;
+	display: inline-block;
+}
+
+.c-gray {
+	color: var(--db-color-gray);
+}
+
+.c-blue {
+	color: var(--db-brand-color);
+}
+
+.text-underline {
+	text-decoration-line: underline;
 }
 
 /* Header */
@@ -189,15 +206,34 @@ a {
 }
 
 .card {
+	min-width: 180px;
     width: calc(100%/3);
-    border: 1px solid black;
+    border: 1px solid var(--db-color-gray);
+	font-size: .9rem;
 
     &:last-child {
         width:100%;
     }
 
-	header {
+	#card-header {
+		padding: .5rem 0;
 		text-align: center;
+		border-bottom: 1px solid var(--db-color-gray);
+	}
+	
+	#card-main {
+		padding: 2rem;
+	}
+	
+	#card-main > *:not(.btn) {
+		display: block;
+		padding-bottom: 2rem;
+	}
+	
+	.divider {
+		width: max(30%, 30px);
+		border-top: 1px solid var(--db-color-gray);
+
 	}
 }
 
