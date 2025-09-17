@@ -29,6 +29,7 @@
 	--db-bg-primary: #ffffff;
 	--db-bg-secondary: #b4d0e6;
 	--db-color-black: #000000;
+	--db-color-gray: #8496ac;
 	--db-color-white: #ffffff;
 }
 
@@ -188,4 +189,32 @@ a {
 .capabilities a {
     text-decoration: underline;
 	color: blue;
+}
+
+/* Footer */
+#app-footer {
+    padding: 4rem 0 0 0;
+    line-height: 2rem;
+    background-color: var(--db-color-black);
+    color: var(--db-color-white);
+
+    ul {
+        padding-right: .5rem;
+		padding-bottom: 5rem;
+        width: calc(100%/5);
+    }
+
+    li {
+        font-size: .8rem;
+		color: var(--db-color-gray);
+        list-style: none;
+    }
+}
+
+.language-selector {
+	width: max(10%, 100px);
+	border-top: 1px solid var(--db-color-gray);
+	color: var(--db-color-gray);
+	font-size: .7rem;
+	padding: 1rem 0;
 }
