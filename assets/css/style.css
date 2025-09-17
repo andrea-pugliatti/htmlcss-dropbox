@@ -220,9 +220,13 @@ a {
 	}
 }
 
+.cards {
+	gap: 1rem;
+	justify-content: space-between;
+}
+
 .card {
-	min-width: 120px;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 1rem);
     border: 1px solid var(--db-color-gray);
 	font-size: .9rem;
 
