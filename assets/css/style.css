@@ -115,7 +115,7 @@ a {
 }
 
 .row {
-    margin: 0 -1rem;
+    margin: 5rem -1rem;
 }
 
 .col-3 {
@@ -263,9 +263,27 @@ a {
 }
 
 /* capabilities section */
-.capabilities a {
-    text-decoration: underline;
-	color: blue;
+.capabilities {
+	padding: 10rem 0;
+
+	h2 {
+		font-size: 2rem;
+		display: block;
+		padding: 2rem 0;
+	}
+	
+	p {
+		font-size: .8rem;
+		display: block;
+		margin-top: 1rem;
+	}
+
+	a {
+		display: inline-block;
+		padding-top: 3rem;
+    	text-decoration: underline;
+		color: blue;
+	}
 }
 
 /* Footer */
