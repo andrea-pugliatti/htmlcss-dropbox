@@ -109,8 +109,20 @@ a {
 .btn {
 	background-color: var(--db-brand-color);
 	color: var(--db-color-white);
+	font-size: .85rem;
 	padding: 0.4rem 0.8rem;
 	display: inline-block;
+}
+
+.btn-primary {
+	padding: 0.7rem 1.3rem;
+}
+
+.btn-outline {
+	padding: 0.6rem 1.2rem;
+	background-color: var(--db-color-white);
+	color: var(--db-color-black);
+	border: 1px solid var(--db-color-black);
 }
 
 .c-gray {
@@ -173,7 +185,6 @@ a {
 
 	a {
 		align-self: flex-start;
-		padding: 0.7rem 1.3rem;
 	}
 
 	i {
@@ -262,10 +273,7 @@ a {
 	}
 
 	a {
-		display: block;
 		margin-top: 2rem;
-		padding: 0.6rem 1.2rem;
-		border: 1px solid var(--db-color-black);
 		justify-self: flex-start;
 	}
 }
