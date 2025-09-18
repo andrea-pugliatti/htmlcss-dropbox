@@ -152,26 +152,31 @@ a {
 /* Header */
 #app-header {
 	width: 100%;
-	height: 80px;
 	background-color: var(--db-bg-primary);
-	padding: 1rem;
+	padding: 0 1rem;
 	font-size: 0.9rem;
+
 
 	ul {
 		list-style-type: none;
-		gap: 1rem;
+		gap: 2rem;
 	}
 
 	.nav-left {
-		align-items: center;
+		justify-content: flex-start;
 	}
 
 	.nav-right {
 		justify-content: flex-end;
+	}
 
-		li.btn > a {
-			background-color: var(--db-brand-color);
-			color: var(--db-color-white);
+	li:not(.start-button) {
+		height: 80px;
+		padding: 2rem 0;
+
+		&:hover {
+			cursor: pointer;
+			border-bottom: 1px solid;
 		}
 	}
 
