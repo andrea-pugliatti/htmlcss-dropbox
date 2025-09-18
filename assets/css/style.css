@@ -362,10 +362,14 @@ a {
 		width: calc(100% / 5);
 	}
 
-	li {
+	li, a {
 		font-size: 0.8rem;
 		color: var(--db-color-gray);
 		list-style: none;
+
+		:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
