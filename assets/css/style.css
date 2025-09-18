@@ -17,7 +17,7 @@
 
 /* Common */
 body {
-	font-family: "Inter", Helvetica, sans-serif;
+	font-family: "Open Sans", Helvetica, sans-serif;
 	font-size: 16px;
 	min-width: 600px;
 }
@@ -333,8 +333,11 @@ a {
 		min-height: 800px;
 	}
 
-	.col-3,
 	.card {
 		min-height: 400px;
+	}
+
+	[class^="col-"] {
+		min-height: 300px;
 	}
 }
