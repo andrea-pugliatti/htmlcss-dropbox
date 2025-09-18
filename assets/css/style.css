@@ -189,6 +189,35 @@ a {
 	}
 }
 
+/* Dropdown */
+.dropdown-container {
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	margin-top: 28px;
+	z-index: 1;
+	background-color: var(--db-color-lightblue);
+
+	.dropdown-item {
+  		display: block;
+  		color: var(--db-color-white);
+  		text-align: left;
+  		padding: 1rem .5rem;
+  		text-decoration: none;
+	}
+}
+
+.dropdown {
+	position: relative;
+
+	&:hover .dropdown-container {
+		display: block;
+	}
+	&:hover .dropdown-item {
+		background-color: var(--db-color-lightblue);
+	}
+}
+
 /* Jumbotron */
 .jumbotron {
 	padding-top: 3rem;
